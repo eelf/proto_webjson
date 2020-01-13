@@ -1,0 +1,17 @@
+{
+    "name": "eelf/proto_webjson",
+    "autoload": {
+        "psr-4": {
+            "Eelf\\WebJson\\": "src/"
+        }
+    },
+    "require": {
+        "eelf/protobuf": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com/eelf/protobuf.git"
+        }
+    ]
+}
