@@ -43,7 +43,7 @@ class Router {
             } else {
                 $value = $message->fields[$name];
             }
-            $res[$name] = $value;
+            $res[$tag - 1] = $value;
         }
         return $res;
     }
